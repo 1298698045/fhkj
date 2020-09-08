@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/messages/index",
+    "pages/work/index",
+    "pages/homeMailList/index",
+    "pages/my/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "云OA",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/messages/index",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/homeMailList/index",
+        "text": "接口"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap31.json"
+}

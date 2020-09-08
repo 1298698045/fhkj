@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"usingComponents": {
+				  "van-search": "/wxcomponents/vant/search/index",
+				  "van-popup":"/wxcomponents/vant/popup/index",
+				  "van-icon":"/wxcomponents/vant/icon/index",
+				  "van-nav-bar":"/wxcomponents/vant/nav-bar/index",
+				  "van-action-sheet":"/wxcomponents/vant/action-sheet/index",
+				  "van-checkbox":"/wxcomponents/vant/checkbox/index",
+				  "van-radio":"/wxcomponents/vant/radio/index",
+				  "van-radio-group":"/wxcomponents/vant/radio-group/index",
+				  "van-dialog":"/wxcomponents/vant/dialog/index",
+				  "van-divider":"/wxcomponents/vant/divider/index",
+				  "van-collapse":"/wxcomponents/vant/collapse/index",
+				  "van-collapse-item":"/wxcomponents/vant/collapse-item/index",
+				  "van-field":"/wxcomponents/vant/field/index",
+				  "van-button":"/wxcomponents/vant/button/index",
+				  "i-row":"/wxcomponents/view/row/index",
+				  "i-col":"/wxcomponents/view/col/index"
+				}
+			}
+		},
+		{
+			"path": "pages/messages/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/work/index",
+			"style": {
+				"navigationBarTitleText": "工作台"
+			}
+		},
+		{
+			"path": "pages/homeMailList/index",
+			"style": {
+				"navigationBarTitleText": "通讯录"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "云OA",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		//导航
+		"list": [{
+			"pagePath": "pages/messages/index",
+			"text": "组件"
+		}, {
+			"pagePath": "pages/homeMailList/index",
+			"text": "接口"
+		}]
+	}
+}

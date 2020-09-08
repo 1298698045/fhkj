@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "登录",
+  "usingComponents": {
+    "van-search": "/wxcomponents/vant/search/index",
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-icon": "/wxcomponents/vant/icon/index",
+    "van-nav-bar": "/wxcomponents/vant/nav-bar/index",
+    "van-action-sheet": "/wxcomponents/vant/action-sheet/index",
+    "van-checkbox": "/wxcomponents/vant/checkbox/index",
+    "van-radio": "/wxcomponents/vant/radio/index",
+    "van-radio-group": "/wxcomponents/vant/radio-group/index",
+    "van-dialog": "/wxcomponents/vant/dialog/index",
+    "van-divider": "/wxcomponents/vant/divider/index",
+    "van-collapse": "/wxcomponents/vant/collapse/index",
+    "van-collapse-item": "/wxcomponents/vant/collapse-item/index",
+    "van-field": "/wxcomponents/vant/field/index",
+    "van-button": "/wxcomponents/vant/button/index",
+    "i-row": "/wxcomponents/view/row/index",
+    "i-col": "/wxcomponents/view/col/index"
+  }
+}
